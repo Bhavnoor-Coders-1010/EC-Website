@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img alt="Complaint Portal" class="complaintPortal" src="complaint.png">
+    <div class="main">
+        <img src="bgimg.webp">
+        <div class="title">
+            <h1>Election Commission <br> IIT Kanpur</h1>
+            <h2>WHAT DO WE DO? 👇</h2>
+        </div>
+    </div>
+    <div class="main">
+        <img src="announcementBG.avif">
+        <div class="title2">
+            <h1><span style="color: rgb(24, 210, 110);">Election</span> Commission <br> <span style="color: rgb(24, 210, 110);">IIT</span> Kanpur</h1>
+            <p>The election commission is mandated to foster the democratic spirit in the students’ self-governance set up - the Students’ Gymkhana. For upholding this spirit, it is necessary that the representatives of the students are elected by the process of free and fair elections.</p>
+        </div>
+    </div>
+    <div class="announcement-container">
+        <div class="announcement">
+            <h1>📢 Announcements! 📢</h1>
+
+            <!-- <button class="soapbox">Soap Box Schedule</button>
+            <button class="penalty">Penalties Imposed</button>
+            <button class="edad">EDAD Schedule</button>
+            <button class="nom">Call for Nominations</button>
+            <button class="enf">CoC Enforced</button>
+            <button class="cocPros">CoC for Propective Period</button>
+            <button class="pros">Prospective Period</button> -->
+        </div>
+    </div>
+    
+    
+    <div class="team">
+        <section class="team-section">
+            <div class="container">
+              <h2>Meet Our Team</h2>
+              <div class="team-members">
+                <div class="team-member">
+                    <img src="Shreyansh.jpeg" alt="Team Member 2">
+                    <h3>Shreyansh Kesharwani</h3>
+                    <p>Chief Election Officer</p>
+                </div><br>
+                
+                <div class="team-member">
+                  <img src="Akanksha.jpg" alt="Team Member 2">
+                  <h3>Akanksha Wattamwar</h3>
+                  <p>Manager - Web</p>
+                </div>
+                <div class="team-member">
+                    <img src="Anisha.jpg" alt="Team Member 2">
+                    <h3>Anisha Srivastava</h3>
+                    <p>Manager - Finance</p>
+                </div>
+                <div class="team-member">
+                    <img src="Dhruv.jpg" alt="Team Member 2">
+                    <h3>Dhruv Gupta</h3>
+                    <p>Manager - Publicity UG Wing</p>
+                  </div>
+                <div class="team-member">
+                    <img src="Aditya.jpg" alt="Team Member 2">
+                    <h3>Kumar Aditya</h3>
+                    <p>Manager - Logistics</p>
+                  </div>
+                <div class="team-member">
+                    <img src="Paki.jpg" alt="Team Member 2">
+                    <h3>Paki Gupta</h3>
+                    <p>Manager - Design</p>
+                  </div>
+              </div>
+            </div>
+          </section>
+    </div>
+    <div class="formDiv off ">
+        <button id="close" style="background: none; position: fixed;top: 0px;right: 0px;">
+            ❌
+        </button>
+        <form class = "complainForm" action="https://api.web3forms.com/submit" method="POST">
+            <label style="width: 100%; font-size: 30px;">Anonymous Complaint Form</label><br>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name: " placeholder="Enter Your Name(Optional)">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email Id: " placeholder="Enter Your IITK Email(Optional)">
+            <br>
+            <label for="message">Complaint<p style="color: red; display: inline;">*</p>:</label>
+            <textarea name="Complaint" id = "message" placeholder="Enter Your Complaint" required></textarea>
+            <br>
+            <label for="file">Proof Image:</label>
+            <input type="text" name = "Image Link:" placeholder="Enter Drive Link of Proof(Optional)">
+            <br>
+            <input type="hidden" id = "ak" name="access_key" value="7a12a1ea-ae2e-48de-a9c2-80e52db67dbb">
+            
+            <button>Submit <img src="send.png" width="20px"></button><br>
+            <!-- <input type="reset" style="visibility: hidden;"> -->
+        </form>
+        
+    </div>
+    <footer>
+        <div class="map-div">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7140.945193830617!2d80.229344!3d26.504921000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3654ff75b5b3%3A0x318bc81e56e0da51!2sNew%20Student%20Activity%20Center%2C%20Kalyanpur%2C%20Kanpur%2C%20Uttar%20Pradesh%20208016!5e0!3m2!1sen!2sin!4v1720816300937!5m2!1sen!2sin" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact">
+            <h1>CONTACT US</h1>
+            <p>Senate Hall<br>
+                New SAC, OAT<br>
+                IIT Kanpur</p>
+                <a href="https://www.instagram.com/ec_iitk/"><img src="ins.png"></a>
+                <a href="https://www.facebook.com/election.commission.iitk/"><img src="fb.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=%2B918957465229&context=ARCYxlZSXqCK9btLI-bU_NStjwvv9fFU7nCKkZyMKBGe9WzMijp8C5ftqD1xzmlpQmkhmijndq_-qPcRYUZ68tGM2Vaa-CwACpxNS2vZnfd65NuxOEB90_ytOQBaZvh-PLna67BStQqmLX-0p8kiMz86bA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR1lELiu9hBFdhH6nDL_Mavco3KjA07LwSdWtg9zIlw6bAmjkGH2ZLKVjt8_aem_etC6NRxwEMmKxDZ-xds53A"><img src="w.png"></a><br>
+                <h3>Phone: </h3> <a href="tel:7071016690">+91 7071016690</a><br>
+                <h3>Email: </h3> <a href="mailto:ec_sg@iitk.ac.in">ec_sg@iitk.ac.in</a>
+                <br>
+                
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
